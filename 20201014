@@ -1,0 +1,31 @@
+Matplotlib中plt.legend使用方法
+
+設定圖示
+plt.legend()
+
+
+
+參數列表：self,parent, handles, labels, loc, numpoints, markerscale, markerfirst, scatterpoints, scatteryoffsets, prop, fontsize, borderpad, labelspacing, handlelength, handleheight, handletextpad, borderaxespad, columnspacing, ncol=1, mode, fancybox, shadow, title, framealpha, edgecolor, facecolor, bbox_to_anchor, bbox_transform, frameon, handler_map
+不放任何參數會直接內建，以下是常用的參數：
+edgecolor 圖示外觀顏色
+facecolor 圖示內填充顏色
+title 圖示標題
+loc 為圖示位置的選擇，可輸入數字或是位置名稱，沒寫則自帶右上。
+‘best’ : 0| ‘upper right’
+‘upper left’ : 2,
+‘lower left’ : 3,
+‘lower right’ : 4,
+‘right’ : 5,
+‘center left’ : 6,
+‘center right’ : 7,
+‘lower center’ : 8,
+‘upper center’ : 9,
+‘center’ : 10,
+
+
+
+來源:https://medium.com/@pythonforsoc/matplotlib%E4%B8%ADplt-legend%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-93469a035251
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
